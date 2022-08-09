@@ -15,7 +15,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	exit;
 }
 
-require_once('./LocalSecrets.php')
+require_once('./LocalSecrets.php');
 
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
