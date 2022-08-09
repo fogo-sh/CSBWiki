@@ -12,3 +12,10 @@ body:
       description: Desired username for the wiki. Must meet the [username requirements](https://www.mediawiki.org/wiki/Account_creation_user_experience/Usernames).
     validations:
       required: true
+  - type: input
+    id: user
+    attributes:
+      label: Account owner
+      description: If you are requesting an account for someone other than yourself, please indicate who this account is intended for.
+    validations:
+      required: false
