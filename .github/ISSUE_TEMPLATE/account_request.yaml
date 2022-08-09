@@ -9,6 +9,6 @@ body:
     id: username
     attributes:
       label: Username
-      description: Desired username for the wiki. Must meet the [username requirements](https://www.mediawiki.org/wiki/Account_creation_user_experience/Usernames)
+      description: Desired username for the wiki. Must meet the [username requirements](https://www.mediawiki.org/wiki/Account_creation_user_experience/Usernames).
     validations:
       required: true
