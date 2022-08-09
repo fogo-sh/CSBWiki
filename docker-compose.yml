@@ -1,0 +1,27 @@
+version: '3.2'
+services:
+  web:
+    image: mediawiki
+    restart: always
+    networks:
+      - web
+    expose:
+      - 80
+    volumes:
+      - ./LocalSettings.php:/var/www/html/LocalSettings.php
+      - ./LocalSecrets.php:/var/www/html/LocalSecrets.php
+      - database:/var/www/data
+      - images:/var/www/html/images
+    labels:
+      traefik.enable: true
+      traefik.frontend.rule: "Host: compscibois.fogo.sh"
+      traefik.port: 80
+      traefik.frontend.entryPoints: "https"
+
+volumes:
+  database:
+  images:
+
+networks:
+  web:
+    external: true
