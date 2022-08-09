@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ghcr.io/fogo-sh/CSBWiki:latest
+          tags: ghcr.io/fogo-sh/csbwiki:latest
