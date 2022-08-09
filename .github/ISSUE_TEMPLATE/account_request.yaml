@@ -1,0 +1,14 @@
+name: Account Request
+description: Request creation of a new MediaWiki account.
+assignees:
+  - nint8835
+labels:
+  - account request
+body:
+  - type: input
+    id: username
+    attributes:
+      label: Username
+      description: Desired username for the wiki. Must meet the [username requirements](https://www.mediawiki.org/wiki/Account_creation_user_experience/Usernames)
+    validations:
+      required: true
