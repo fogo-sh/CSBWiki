@@ -172,3 +172,4 @@ wfLoadExtension( 'WikiEditor' );
 wfLoadExtension( 'VisualEditor' );
 wfLoadExtension( 'Renameuser' );
 wfLoadExtension( 'TemplateData' );
+wfLoadExtension( 'YouTube' );
