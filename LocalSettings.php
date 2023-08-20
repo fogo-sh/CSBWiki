@@ -173,3 +173,4 @@ wfLoadExtension( 'VisualEditor' );
 wfLoadExtension( 'Renameuser' );
 wfLoadExtension( 'TemplateData' );
 wfLoadExtension( 'YouTube' );
+wfLoadExtension( 'PortableInfobox' );
